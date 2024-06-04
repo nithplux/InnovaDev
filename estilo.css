@@ -1,0 +1,168 @@
+/*IMPORTAR FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web';
+}
+
+body{
+background: url(img/pruebafondo.jpg);
+background-size: cover;
+background-attachment: fixed;
+padding: 50px;
+}
+.contenedor header .logo-titulo .logo{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 0%;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.contenedor{
+    background-color: #ffebc1;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 40px;
+    border: 5px solid #fff;
+}
+.contenedor header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor header .logo-titulo{
+
+    text-decoration: none;
+    color:#000;
+    display: flex;
+    align-items: center;
+
+}
+
+.contenedor header .logo-titulo a i{
+    background-color: #fff3d2;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contenedor header .logo-titulo h1{
+    font-size: 24px;
+}
+.contenedor header nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.contenedor header nav a:hover{
+    color:blue;
+}
+.contenedor header .carrito .icono-carrito{
+    display: inline-block;
+    background-color: #fff3d2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+
+.contenedor header .carrito .icono-carrito:hover{
+    background-color: blue;
+}
+
+.contenedor header .carrito .total-item-carrito{
+    position:absolute;
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    line-height: 15px;
+}
+
+.contenedor-seccion{
+    position: relative;
+}
+
+.contenedor-seccion .fondo-seccion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(img/fondo.gif);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 50px;
+}
+/*seccion inicio*/
+.contenedor-seccion .inicio{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 300px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.contenedor-seccion .inicio .col{
+    width: 50%;
+}
+.contenedor-seccion .inicio .col .titulo-inicio{
+    line-height: 40px;
+    font-size: 30px;
+    color:#ffffff;
+    margin-bottom: 15px;
+}
+.contenedor-seccion .inicio .col .buscador{
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.contenedor-seccion .inicio .col .buscador input{
+    width: 100%;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    outline: none;
+}
+.contenedor-seccion .inicio .col .buscador span{
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.contenedor-seccion .inicio .buscador span i{
+    padding-right:10px;
+}
+.contenedor-seccion .inicio .col .buscador span:hover{
+    background-color: blue;
+}
+
+.contenedor-seccion .inicio .col .contenedor-img{
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    border-radius: 30%;
+}
+.contenedor-seccion .inicio .col .contenedor-img img{
+    width: 100%;
+}
